@@ -1,0 +1,126 @@
+MyfirstCSSpage.css
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: yellow;
+  color: purple;
+ }
+
+ h1 {
+  background-color: black;
+  color: lime;
+ }
+
+ div {
+   background-color: magenta;
+   color: black;
+ }
+ </style>
+ </head>
+ <body>
+
+ <h1>This is a Heading</h1>
+ <p>This page has a yellow background color and a purple text.</p>
+ <div>This is a div.</div>
+
+ </body>
+ </html>
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ a {
+   color: hotpink;
+ }
+ </style>
+ </head>
+ <body>
+
+ <h2>Style a link with a color</h2>
+
+ <p><b><a href="w3schools.com/css/tryit.asp" target="trycss_link_all">This is a link</a></b></p>
+
+ </body>
+ </html>
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <style>
+ p.uppercase {
+   text-transform: uppercase;
+  }
+
+  p.lowercase {
+  	text-transform: lowercase;
+  }
+
+  p.capitalize {
+  	text-transform: capitalize;
+  }
+  </style>
+  </head>
+  <body>
+
+  <h1>Using the text-transform property</h1>
+
+  <p class="uppercase">This text is transformed to uppercase.</p>
+  <p class="lowercase">This text is transformed to lowercase.</p>
+  <p class="capitalize">This text is capitalized.</p>
+
+  </body>
+  </html>
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  div {
+  	border: 1px solid black;
+  	margin-top: 100px;
+  	margin-bottom: 100px;
+  	margin-right: 150px;
+  	margin-left: 80px;
+  	background-color: lightblue;
+  }
+  </style>
+  </head>
+  <body>
+
+  <h2>Using individual margin properties</h2>
+
+  <div>This div element has a top margin of 100px, a right margin of 150px, a 
+  bottom margin of 100px, and a left margin of 80px.</div>
+
+  </body>
+  </html>
+  
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <style>
+  .p1 {
+  	font-family: "Times New Roman", Times, serif;
+  }
+
+  .p2 {
+  	font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .p3 {
+  	font-family: "Lucinda Console", "Courier New", monospace;
+  }
+  </style>
+  </head>
+  <body>
+
+  <h1>CSS font-family</h1>
+  <p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+  <p class="p2">This is a paragraph, shown in the Arial font.</p>
+  <p class="p3">This is a paragraph, shown in the Lucinda Console font.</p>
+
+  </body>
+  </html>
